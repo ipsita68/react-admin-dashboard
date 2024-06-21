@@ -626,7 +626,7 @@ export const cartData = [
   },
 ];
 
-export const chatData = [
+export const NotificationData = [
   {
     image: avatar_p,
     message: "Pranshu Joined the Team!",
@@ -650,6 +650,36 @@ export const chatData = [
     message: "Deepika completed tasks",
     desc: "Assign her new tasks",
     time: "1:12 AM",
+  },
+];
+export const chatData = [
+  {
+    image: avatar_p,
+    sender: "Pranshu",
+    message: "Hey, how's it going?",
+    time: "9:08 AM",
+    isRead: true,
+  },
+  {
+    image: avatar_aish,
+    sender: "Aishanya",
+    message: "Can we meet later today?",
+    time: "11:56 AM",
+    isRead: false,
+  },
+  {
+    image: avatar_kriti,
+    sender: "Kriti",
+    message: "Here's the report you requested.",
+    time: "4:39 AM",
+    isRead: true,
+  },
+  {
+    image: avatar_d,
+    sender: "Deepika",
+    message: "When are you free for a quick call?",
+    time: "1:12 AM",
+    isRead: false,
   },
 ];
 
