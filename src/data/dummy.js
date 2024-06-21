@@ -22,7 +22,6 @@ import {
   BsShield,
   BsChatLeft,
 } from "react-icons/bs";
-import { BiColorFill } from "react-icons/bi";
 import { IoMdContacts } from "react-icons/io";
 import { RiContactsLine, RiStockLine } from "react-icons/ri";
 import { MdOutlineSupervisorAccount } from "react-icons/md";
@@ -556,10 +555,6 @@ export const links = [
       {
         name: "kanban",
         icon: <BsKanban />,
-      },
-      {
-        name: "color-picker",
-        icon: <BiColorFill />,
       },
     ],
   },
