@@ -112,6 +112,17 @@ react-admin-dashboard/
 ├── tailwind.config.js
 
  ```
+
+
+## Deployment
+
+You can view the deployed site at [https://ipsita-react-dashboard.netlify.app/](https://ipsita-react-dashboard.netlify.app/). This link will take you to the live version of the dashboard where you can explore its features and functionality.
+
+However,screenshots of the site have also been included to provide an overview of its interface and workings.
+
+Feel free to explore the application and let me know if you have any questions or feedback!
+
+
 ## Screenshots of the app:
 
 ![WhatsApp Image 2024-06-21 at 16 27 44_6e4076db](https://github.com/ipsita68/react-admin-dashboard/assets/121110612/f0d07f52-7e59-48a2-be10-a0deb9bd3e0e)
