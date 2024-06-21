@@ -9,16 +9,14 @@ import avatar_ipsita from "../data/avatar_ipsita.jpg";
 import { Cart, Chat, Notification, UserProfile } from ".";
 import NavButton from "./NavButton";
 import { useStateContext } from "./Charts/contexts/ContextProvider";
+
 const Navbar = () => {
   const {
     currentColor,
-
     activeMenu,
     setActiveMenu,
-
     handleClick,
     isClicked,
-
     setScreenSize,
     screenSize,
   } = useStateContext();
@@ -31,7 +29,7 @@ const Navbar = () => {
     handleResize();
 
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  }, [setScreenSize]); // Add setScreenSize as a dependency
 
   useEffect(() => {
     if (screenSize <= 900) {
@@ -39,7 +37,7 @@ const Navbar = () => {
     } else {
       setActiveMenu(true);
     }
-  }, [screenSize]);
+  }, [screenSize, setActiveMenu]); // Add setActiveMenu as a dependency
 
   const handleActiveMenu = () => {
     setActiveMenu(!activeMenu); // Toggle the activeMenu state
